@@ -234,6 +234,76 @@
 
 }
 
+/* JOGO DA MEMÓRIA */
+
+.memory-game {
+   justify-content: center;
+
+}
+
+.memory-game-container {
+   font-family: 'Inter';
+   font-style: normal;
+   font-size: 12px;
+   text-align: justify;
+   color: #6479FF;
+   margin: 20px;
+
+}
+
+.memory-game-block {
+   height: 40px;
+   width: 100%;
+   background: #6479FF;
+   font-family: 'Inter', sans-serif;
+   font-size: 14px;
+   justify-content: center;
+   color: #FFBB24;
+   display: flex;
+   font-weight: bold;
+   text-align: center;
+   align-items: center;
+}
+
+.img-memory-game {
+   margin: 20px;
+   max-width: 80%;
+}
+
+.link {
+   display: flex;
+   margin: 0 0 50px 50px;
+
+}
+
+.button-memory-game {
+   width: 60%;
+   height: 38px;
+   background: #FFBB24;
+   border-radius: 50px;
+   border: none;
+   cursor: pointer;
+   filter: drop-shadow(0px 0px 16px rgb(255, 187, 36, 1));
+
+}
+
+.link-memory-game {
+   font-family: 'Inter';
+   font-weight: 700;
+   font-size: 17px;
+   color: #6479FF;
+   background: transparent;
+   text-decoration: none;
+}
+
+.img-alvo {
+   max-width: 25%;
+   position: relative;
+   background: transparent;
+   left: -20%;
+   bottom: -10px;
+}
+
 /* CRIADORES */
 
 .creators-gallery {
@@ -286,6 +356,10 @@
       margin: 20px 10px;
 
    }
+   
+   .introduction-block{
+      font-size: 17px;
+   }
 
    .img-project-creators {
       max-width: 50%;
@@ -319,7 +393,7 @@
    .context-block {
       height: 40px;
       width: 100%;
-      font-size: 14px;
+      font-size: 17px;
 
    }
 
@@ -358,19 +432,41 @@
 
    }
 
-   /* CRIADORES */
-
-   .creators-gallery {
-      max-width: 740px;
-
+   /* JOGO DA MEMORIA */
+   .memory-game {
+      transform: scaleX(-1);
+      display: flex;
+   
    }
-
-
-   .creator {
-      min-width: 35%;
-
+   
+   .memory-game-container {
+      transform: scaleX(-1);
+      font-size: 20px;
    }
-
+   
+   .memory-game-block {
+      height: 40px;
+      font-size: 20px;
+   }
+   
+   .img-memory-game {
+      transform: scaleX(-1);
+      max-width: 30%;
+   }
+   
+   .button-memory-game {
+      width: 60%;
+      height: 50px;
+   
+   }
+   
+   .link-memory-game {
+      font-size: 20px;
+   }
+   
+   .img-alvo {
+      max-width: 20%;
+   }
 
 }
 
@@ -405,7 +501,7 @@
    }
 
    .creator {
-      min-width: 15%;
+      min-width: 23%;
    }
 }
 
@@ -413,6 +509,8 @@
    .showcase-text {
       font-size: 20px;
    }
+
+   /* CONTEXTO */
 
    .context-container {
       font-size: 24px;
@@ -428,6 +526,8 @@
       max-width: 530px;
    }
 
+   /* INTRODUÇÃO */
+
    .introduction-block {
       font-size: 24px;
       height: 60px;
@@ -438,10 +538,13 @@
 
    }
 
+   /* MATERIAIS */
+
    .materials {
       font-size: 34px;
    }
 
+   /* GALERIA */
 
    .tools-gallery {
       max-width: 940px;
@@ -465,6 +568,16 @@
       min-width: 20%;
    }
 
+   .creators-gallery {
+      max-width: 100%;
+   }
+
+   .creators-gallery-wrapper {
+      overflow-x: auto;
+   }
+
+   /* DOWNLOAD */
+
    .button-download {
       height: 80px;
    }
@@ -482,15 +595,42 @@
       left: 69%;
    }
 
-   .creators-gallery {
-      max-width: 100%;
+   /* JOGO DA MEMORIA */   
+   .memory-game-container {
+      display: flex;
+      font-size: 25px;
+      flex-direction: column;
+      justify-content: center;
    }
-
-   .creators-gallery-wrapper {
-      overflow-x: auto;
+   
+   .memory-game-block {
+      height: 60px;
+      font-size: 25px;
+      margin: 0;
+   }
+   
+   .img-memory-game {
+      max-width: 22%;
+   }
+   
+   .button-memory-game {
+      width: 55%;
+      height: 80px;
+   
+   }
+   
+   .link-memory-game {
+      font-size: 29px;
+   }
+   
+   .img-alvo {
+      max-width: 20%;
+      left: -26%;
+      bottom: -16px;
    }
 
    .creator {
       min-width: 15%;
    }
+
 }

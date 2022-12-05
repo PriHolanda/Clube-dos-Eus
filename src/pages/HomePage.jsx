@@ -13,6 +13,11 @@ import julia from '../assets/img/img-julia.png'
 import marilia from '../assets/img/img-marilia.png'
 import priscila from '../assets/img/img-priscila.png'
 import renato from '../assets/img/img-renato.png'
+import joyce from '../assets/img/img-joyce.png'
+import randson from '../assets/img/img-randson.png'
+import dimitry from '../assets/img/img-dimitry.png'
+import iphone from '../assets/img/img-memory-game.png'
+import alvo from '../assets/img/img-alvo.png'
 
 import './styles.css'
 
@@ -81,7 +86,7 @@ function HomePage() {
                             <img src={book} alt="Livro de Colorir" className='item' />
                             <img src={cards} alt="Cards com personagens" className='item' />
                             <img src={box} alt="Caixa do Tesouro" className='item' />
-                            
+
                         </div>
                     </div>
                 </div>
@@ -95,6 +100,25 @@ function HomePage() {
             </div>
             <img src={megaphone} alt="Megafone" className='img-megaphone' />
 
+            {/* JOGO DA MEMORIA  */}
+
+            <div className="memory-game">
+                <img src={iphone} alt="Jogo da Memoria" className='img-memory-game' />
+
+                <div className='memory-game-container'>
+                    <div className='memory-game-block'> JOGO DA MEMÓRIA ON-LINE </div>
+                    Os materiais pedagógicos desenvolvidos são voltados para o contexto escolar, e pensando em dar continuidade a todo o processo de autoconhecimento e conhecimento sobre outro adaptamos um material físico para ser on-line. O jogo da memória on-line tem o objetivo de ultrapassar as paredes da escola, de chegar na família da criança, para que juntos possam construir cada vez mais conhecimento. É imprescindivel que esse conhecimento se expanda, pouco adianta o ensino dentro da instituição se a família reproduz de outra forma dentro do convívio familiar. Esse um jogo ilustrado e intuitivo, de fácil acesso, a criança pode jogar sozinha, assim como acompanhada.
+                </div>
+            </div>
+
+            <div className="link">
+                <button className="button-memory-game"><a href='https://jogo-clube-dos-eus.netlify.app/' className='link-memory-game'>JOGUE AQUI</a></button>
+
+                <img src={alvo} alt="Alvo" className='img-alvo' />
+
+            </div>
+
+
             {/* CRIADORES */}
 
             <div className="creators-gallery">
@@ -105,6 +129,9 @@ function HomePage() {
                         <img src={marilia} alt="marilia" className='creator' />
                         <img src={priscila} alt="priscila" className='creator' />
                         <img src={renato} alt="renato" className='creator' />
+                        <img src={joyce} alt="joyce" className='creator' />
+                        <img src={randson} alt="randson" className='creator' />
+                        <img src={dimitry} alt="dimitry" className='creator' />
                     </div>
                 </div>
             </div>
