@@ -95,7 +95,7 @@ function HomePage() {
             {/* DOWNLOAD */}
 
             <div className="download-button-container">
-                <button className="button-download"><a href='https://projetoclube.files.wordpress.com/2022/11/clube-dos-eus-ebook.pdf' className='download-ebook'>DOWNLOAD</a></button>
+                <button className="button-download"><a href='https://projetoclube.files.wordpress.com/2022/11/clube-dos-eus-ebook.pdf' className='download-ebook'>DOWNLOAD EBOOK</a></button>
 
             </div>
             <img src={megaphone} alt="Megafone" className='img-megaphone' />
