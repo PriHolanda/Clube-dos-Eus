@@ -266,8 +266,8 @@
 }
 
 .img-memory-game {
-   margin: 20px;
-   max-width: 80%;
+   display: flex;
+   max-width: 60%;
 }
 
 .link {
