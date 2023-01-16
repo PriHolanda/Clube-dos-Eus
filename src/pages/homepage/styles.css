@@ -1,10 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-
-
 /* HOME PAGE */
-
-* {
-   margin: auto;
+.homepage-global {
    background: #EEFAFF;
 }
 
@@ -15,7 +10,6 @@
 
 .img-showcase {
    width: 100%;
-
 }
 
 .showcase-text {
@@ -30,14 +24,12 @@
    font-weight: 700;
    text-align: center;
    align-items: center;
-
 }
 
 /* INTRODUÇÃO */
 
 .introduction {
    justify-content: center;
-
 }
 
 .introduction-container {
@@ -47,7 +39,6 @@
    text-align: justify;
    color: #6479FF;
    margin: 20px;
-
 }
 
 .introduction-block {
@@ -72,7 +63,6 @@
 
 .context {
    margin: 50px 10px 10px 10px;
-
 }
 
 .img-ebook {
@@ -81,7 +71,7 @@
 
 .context-img-book {
    display: flex;
-
+   justify-content: center;
 }
 
 .context-container {
@@ -105,7 +95,6 @@
    font-weight: bold;
    text-align: center;
    align-items: center;
-
 }
 
 /* MATERIAIS */
@@ -114,12 +103,12 @@
    display: flex;
    font-family: 'Inter';
    font-weight: 700;
-   font-size: 16px;
+   font-size: 14px;
    line-height: 44px;
    align-items: center;
-   letter-spacing: 0.14em;
+   letter-spacing: 0.16em;
    color: #6479FF;
-
+   gap: 4px;
 }
 
 .materials-blocks {
@@ -128,11 +117,9 @@
 }
 
 .materials-text-kit {
-
    height: 3px;
    min-width: 30%;
    background: rgba(117, 137, 255, 1);
-
 }
 
 .img-materials {
@@ -148,8 +135,6 @@
 .tools-container {
    margin: 20px 20px 0;
    height: 10vh;
-
-
 }
 
 .tools-container-kit {
@@ -164,8 +149,6 @@
    font-weight: bold;
    text-align: center;
    align-items: center;
-
-
 }
 
 .tools-img-clipboard {
@@ -174,7 +157,6 @@
    left: -17px;
    background: transparent;
    top: -60px;
-
 }
 
 .tools-gallery {
@@ -185,7 +167,6 @@
 .tools-gallery-container {
    display: flex;
    flex-flow: row nowrap;
-
 }
 
 .tools-gallery-wrapper {
@@ -194,15 +175,13 @@
 
 .item {
    min-width: 40%;
-
 }
 
 /* DOWNLOAD */
 
-
 .download-button-container {
    display: flex;
-
+   justify-content: center;
 }
 
 .button-download {
@@ -213,7 +192,6 @@
    border: none;
    cursor: pointer;
    filter: drop-shadow(0px 0px 16px rgb(255, 187, 36, 1));
-
 }
 
 .download-ebook {
@@ -229,16 +207,16 @@
    max-width: 40%;
    position: relative;
    background: transparent;
-   bottom: 110px;
+   bottom: 105px;
    left: 58%;
-
 }
 
 /* JOGO DA MEMÓRIA */
 
 .memory-game {
-   justify-content: center;
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .memory-game-container {
@@ -248,7 +226,6 @@
    text-align: justify;
    color: #6479FF;
    margin: 20px;
-
 }
 
 .memory-game-block {
@@ -273,7 +250,6 @@
 .link {
    display: flex;
    margin: 0 0 50px 50px;
-
 }
 
 .button-memory-game {
@@ -284,7 +260,6 @@
    border: none;
    cursor: pointer;
    filter: drop-shadow(0px 0px 16px rgb(255, 187, 36, 1));
-
 }
 
 .link-memory-game {
@@ -309,7 +284,6 @@
 .creators-gallery {
    position: relative;
    max-width: 640px;
-
 }
 
 .creators-gallery-container {
@@ -326,7 +300,6 @@
 
 .creator {
    min-width: 50%;
-
 }
 
 /* RODAPÉ */
@@ -346,18 +319,18 @@
       font-size: 15px;
    }
 
+   /* INTRODUÇÃO */
+
    .introduction {
       display: flex;
-
    }
 
    .introduction-container {
       font-size: 14px;
       margin: 10px 20px;
-
    }
-   
-   .introduction-block{
+
+   .introduction-block {
       font-size: 17px;
    }
 
@@ -371,7 +344,6 @@
    .context {
       display: flex;
       transform: scaleX(-1);
-
    }
 
    .img-ebook {
@@ -381,8 +353,6 @@
    .context-img-book {
       display: flex;
       transform: scaleX(-1);
-
-
    }
 
    .context-container {
@@ -395,14 +365,18 @@
       height: 40px;
       width: 100%;
       font-size: 17px;
+   }
 
+   /* MATERIAIS */
+
+   .materials {
+      font-size: 26px;
    }
 
    /* FERRAMENTAS */
 
    .tools-container {
       height: 25vh;
-
    }
 
    .tools-img-clipboard {
@@ -414,12 +388,12 @@
       max-width: 740px;
    }
 
+
    /* DOWNLOAD */
 
    .button-download {
       width: 60%;
       height: 48px;
-
    }
 
    .download-ebook {
@@ -430,65 +404,44 @@
       max-width: 30%;
       bottom: 160px;
       left: 500px;
-
    }
 
    /* JOGO DA MEMORIA */
+
    .memory-game {
       transform: scaleX(-1);
       display: flex;
-   
    }
-   
+
    .memory-game-container {
       transform: scaleX(-1);
       font-size: 20px;
    }
-   
+
    .memory-game-block {
       height: 40px;
       font-size: 20px;
    }
-   
+
    .img-memory-game {
       transform: scaleX(-1);
       max-width: 30%;
    }
-   
+
    .button-memory-game {
       width: 60%;
       height: 50px;
-   
    }
-   
+
    .link-memory-game {
       font-size: 20px;
    }
-   
+
    .img-alvo {
       max-width: 20%;
    }
 
-}
-
-@media(min-width: 750px) {
-   .introduction-container {
-      font-size: 17px;
-
-   }
-
-   .materials {
-      font-size: 26px;
-   }
-
-   .tools-gallery {
-      max-width: 940px;
-   }
-
-   .img-megaphone {
-      bottom: 185px;
-      left: 66%;
-   }
+   /* CRIADORES */
 
    .creators-gallery {
       max-width: 940px;
@@ -512,22 +465,6 @@
       font-size: 20px;
    }
 
-   /* CONTEXTO */
-
-   .context-container {
-      font-size: 24px;
-
-   }
-
-   .context-block {
-      font-size: 24px;
-      height: 60px;
-   }
-
-   .img-ebook {
-      max-width: 530px;
-   }
-
    /* INTRODUÇÃO */
 
    .introduction-block {
@@ -541,7 +478,21 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+   }
 
+   /* CONTEXTO */
+
+   .context-container {
+      font-size: 24px;
+   }
+
+   .context-block {
+      font-size: 24px;
+      height: 60px;
+   }
+
+   .img-ebook {
+      max-width: 530px;
    }
 
    /* MATERIAIS */
@@ -553,7 +504,7 @@
    /* GALERIA */
 
    .tools-gallery {
-      max-width: 940px;
+      max-width: 100%;
    }
 
    .tools-container-kit {
@@ -566,20 +517,8 @@
       top: -105px;
    }
 
-   .tools-gallery {
-      max-width: 100%;
-   }
-
    .item {
       min-width: 20%;
-   }
-
-   .creators-gallery {
-      max-width: 100%;
-   }
-
-   .creators-gallery-wrapper {
-      overflow-x: auto;
    }
 
    /* DOWNLOAD */
@@ -601,42 +540,52 @@
       left: 69%;
    }
 
-   /* JOGO DA MEMORIA */   
+   /* JOGO DA MEMORIA */
+
    .memory-game-container {
       display: flex;
       font-size: 25px;
       flex-direction: column;
       justify-content: center;
    }
-   
+
    .memory-game-block {
       height: 60px;
       font-size: 25px;
       margin: 0;
    }
-   
+
    .img-memory-game {
       max-width: 22%;
    }
-   
+
    .button-memory-game {
       width: 55%;
       height: 80px;
-   
    }
-   
+
    .link-memory-game {
       font-size: 29px;
    }
-   
+
    .img-alvo {
       max-width: 20%;
       left: -26%;
       bottom: -16px;
    }
 
+   /* CRIADORES */
+
    .creator {
       min-width: 15%;
+   }
+
+   .creators-gallery {
+      max-width: 100%;
+   }
+
+   .creators-gallery-wrapper {
+      overflow-x: auto;
    }
 
 }

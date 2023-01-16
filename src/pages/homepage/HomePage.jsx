@@ -1,23 +1,23 @@
-import cabecalho from '../assets/img/img-showcase.png'
-import creators from '../assets/img/project-creators.png'
-import ebook from '../assets/img/ebook.png'
-import clipboard from '../assets/img/clipboard.png'
-import materials from '../assets/img/img-materials.png'
-import cards from '../assets/img/img-material-cards.png'
-import portrait from '../assets/img/img-material-portrait.png'
-import book from '../assets/img/img-material-book.png'
-import box from '../assets/img/img-material-box.png'
-import megaphone from '../assets/img/megaphone.png'
-import rael from '../assets/img/img-rael.png'
-import julia from '../assets/img/img-julia.png'
-import marilia from '../assets/img/img-marilia.png'
-import priscila from '../assets/img/img-priscila.png'
-import renato from '../assets/img/img-renato.png'
-import joyce from '../assets/img/img-joyce.png'
-import randson from '../assets/img/img-randson.png'
-import dimitry from '../assets/img/img-dimitry.png'
-import iphone from '../assets/img/img-memory-game.png'
-import alvo from '../assets/img/img-alvo.png'
+import cabecalho from '../../assets/img/img-showcase.png'
+import creators from '../../assets/img/project-creators.png'
+import ebook from '../../assets/img/ebook.png'
+import clipboard from '../../assets/img/clipboard.png'
+import materials from '../../assets/img/img-materials.png'
+import cards from '../../assets/img/img-material-cards.png'
+import portrait from '../../assets/img/img-material-portrait.png'
+import book from '../../assets/img/img-material-book.png'
+import box from '../../assets/img/img-material-box.png'
+import megaphone from '../../assets/img/megaphone.png'
+import rael from '../../assets/img/img-rael.png'
+import julia from '../../assets/img/img-julia.png'
+import marilia from '../../assets/img/img-marilia.png'
+import priscila from '../../assets/img/img-priscila.png'
+import renato from '../../assets/img/img-renato.png'
+import joyce from '../../assets/img/img-joyce.png'
+import randson from '../../assets/img/img-randson.png'
+import dimitry from '../../assets/img/img-dimitry.png'
+import iphone from '../../assets/img/img-memory-game.png'
+import alvo from '../../assets/img/img-alvo.png'
 
 import './styles.css'
 
@@ -102,6 +102,7 @@ function HomePage() {
 
             {/* JOGO DA MEMORIA  */}
 
+           
             <div className="memory-game">
                 <img src={iphone} alt="Jogo da Memoria" className='img-memory-game' />
 
@@ -116,6 +117,7 @@ function HomePage() {
 
                 <img src={alvo} alt="Alvo" className='img-alvo' />
 
+            
             </div>
 
 
