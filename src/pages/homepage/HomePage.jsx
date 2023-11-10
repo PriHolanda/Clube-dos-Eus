@@ -129,7 +129,7 @@ function HomePage() {
 
             <div className="link">
                 <button >
-                    <a href='https://jogo-clube-dos-eus.netlify.app/' className='link-memory-game'>
+                    <a href='https://jogo-dos-eus.vercel.app' className='link-memory-game'>
                         JOGUE AQUI
                     </a>
 
